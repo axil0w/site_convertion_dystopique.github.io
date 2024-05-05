@@ -1,0 +1,104 @@
+body{
+    background-color:  #182c25;
+    margin: 0%;
+    height: 100%;
+}
+
+ol{
+    margin: 0;
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2px;
+}
+
+div.task{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(100, 197, 4);
+}
+p.task{
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(7, 255, 90);
+}
+
+a{
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding: auto;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    background-color:#00a038;
+}
+a:hover{
+    background-color: #00852e;
+}
+
+img{
+    width: 100px;
+}
+
+div.price{
+    display: flex;
+    color: #182c25;
+    height: 35px;
+    width: auto;
+    position: absolute;
+    left:35.5vw;
+    top:19.5vh;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    background: linear-gradient(to left, #1928ff, #0f93ff);
+    border: #182c25;
+    border-radius: 5px;
+    
+}
+p.price, p.credits{
+    top:0;
+    margin: 0;
+}
+.price.coin, .credits.coin{
+    top:0;
+    height: 35px;
+    width: 35px;
+}
+div.credits{
+    display: flex;
+    color: #182c25;
+    height: 35px;
+    width: auto;
+    position: absolute;
+    bottom: 100px;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    background: linear-gradient(to left, #f71a1a, #ff8800);
+    border: #182c25;
+    border-radius: 5px;
+}
