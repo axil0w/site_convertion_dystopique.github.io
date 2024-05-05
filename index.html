@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>crazy convertion</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+  <link href="land_page/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <svg>
+    <line x1="106.5" y1="35" x2="68vw" y2="35" />
+    <line x1="106.5" y1="35" x2="-webkit-calc(34vw + 106.5px)" y2="40vh" />
+    <line x1="-webkit-calc(68vw + 106.5px)" y1="35" x2="-webkit-calc(34vw + 106.5px)" y2="40vh" />
+  </svg>
+  <div class="input_container">
+    <div class="input_sub_container" id="bin_">
+      <span class="description">binaire</span>
+      <input type="text" id="bin" name="name" />
+      <input id="copy_button_bin" class="copy_button" type="button" value="copier" />
+    </div>
+    <div class="input_sub_container" id="hex_">
+      <span class="description">hexadecimal</span>
+      <input type="text" id="hex" name="name" />
+      <input id="copy_button_hex" class="copy_button" type="button" value="copier" />
+    </div>
+    <div class="input_sub_container" id="int_">
+      <span class="description">entier</span>
+      <input type="text" id="int" name="name" />
+      <input id="copy_button_int" class="copy_button" type="button" value="copier" />
+    </div>
+  </div>
+  <div>
+    <input id="convert_button" type="button" value="convertir" />
+    <div class="price">
+      <p class="price" id="price">0</p>
+      <img src="coin.png" class="coin price"/>
+    </div>
+    <div class="credits">
+      <p class="credits" id="credits">0</p>
+      <img src="coin.png" class="coin credits"/>
+    </div>
+    </div>
+  
+  <footer>
+    <a href="info_page/autre_page.html"><img src="info.png"></a>
+    <a href="tasks/tasks.html"><img src="clipboard.png"></a>
+    <a href="index.html"><img src="cycle.png"></a>
+  </footer>
+</body>
+<script src='land_page/interaction.js'></script>
+
+
+</html>
